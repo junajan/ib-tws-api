@@ -10,7 +10,7 @@ async function run() {
 
   let details = await api.getHistoricalData({
     contract: Contract.stock('AAPL'),
-    endDateTime: '20200308 12:00:00',
+    endDateTime: '20200308 12:00:00 US/Eastern',
     duration: '1 D',
     barSizeSetting: '1 min',
     whatToShow: 'TRADES',

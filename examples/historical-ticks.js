@@ -10,7 +10,7 @@ async function run() {
 
   let details = await api.getHistoricalTicks({
     contract: Contract.stock('AAPL'),
-    startDateTime: '20200608 11:00:00',
+    startDateTime: '20200608 11:00:00 US/Eastern',
     numberOfTicks: 1000,
     whatToShow: 'TRADES',
     useRth: 1
